@@ -1,9 +1,8 @@
 import { FlatList } from 'react-native';
-import { Text, View } from '../../components/Themed';
 import { tracks } from '../../../assets/data/tracks'
 import TrackListItem from '../../components/TrackList/TrackListItem';
 
-export default function HomeScreen() {  
+export default function FavoriteScreen() {
   return (
     <FlatList 
       data={tracks}
